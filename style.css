@@ -25,9 +25,11 @@
 h1 {
   font-weight: bold;
   font-size: 3em;
-  margin: -300px 0 40px;
+  margin: -200px 0 40px;
   position: absolute;
   display: none;
+  padding: 5px;
+  background: rgb(255, 255, 255, 0.5)
 }
 
 .natale {
