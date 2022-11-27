@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300,400,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header{
+    height: 10%;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 30px;
+    font-style: italic;
+    position: block;
+}
+header ul{
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+header ul li{
+    margin-left: 30px;
+    position: relative;
+    list-style: none;
+}
+header ul li span{
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:transparent;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255,0.9);
+}
+header ul li span::before{
+    content: attr(data-text);
+    position: absolute;
+    color: var(--clr);
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 8px solid var(--clr);
+    -webkit-text-stroke: 2px var(--clr);
+}
+header ul li span:hover::before{
+    width: 100%;
+    filter: drop-shadow(0 0 25px var(--clr));
+}
+
+.introduction{
+    height: 85%;
+    width: 100%;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+}
+.intro-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro-text h1{
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 700;
+}
+.intro-text h3{
+    font-size: 2rem;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.intro-image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-image div{
+    height: 200px;
+    width: 250px;
+    background: var(--cld);
+    position: absolute;
+    transform: rotate(-45deg);
+    border-bottom-left-radius: 125px;
+}
+#first{
+    margin-bottom: 70px;
+    z-index: 3;
+    border-radius: 20px;
+    border-bottom-left-radius: 125px;
+    filter:drop-shadow(0 0 10px var(--cld))
+}
+#second{
+    z-index: 2;
+    border-radius: 20px;
+    border-bottom-left-radius: 124px;
+    filter:drop-shadow(0 0 10px var(--cld))
+}
+#third{
+    margin-top: 70px;
+    z-index: 1;
+    border-radius: 20px;
+    border-bottom-left-radius: 126px;
+    filter:drop-shadow(0 0 10px var(--cld))
+}
+#fourth{
+    margin-bottom: 280px;
+    z-index: 4;
+    width: 350px;
+    height: 300;
+    filter:drop-shadow(0 0 10px var(--cld))
+}
+
+.work{
+    width: 100%;
+    height: 100%;
+}
+.timer{
+    width: 100%;
+    height: 33.3vh;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 300px;
+}
