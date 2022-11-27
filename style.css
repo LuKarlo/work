@@ -8,6 +8,11 @@
 .back1{background: url(Bc.png);}
 .back2{background: url(bc2timer.png);}
 
+#giorni, #giorni2, #ore, #ore2, #minuti, #minuti2, #secondi, #secondi2{
+  -webkit-text-stroke: 1px whitesmoke;
+  color: black;
+}
+
 .body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,11 +32,8 @@ h1 {
   font-size: 3em;
   margin: -200px 0 40px;
   position: absolute;
-  display: none;
-}
-
-.natale {
-  display: flex;
+  -webkit-text-stroke: 1px whitesmoke;
+  color: black;
 }
 
 .countdown {
