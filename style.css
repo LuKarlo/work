@@ -55,7 +55,7 @@ h1 {
   margin: 0 0 5px;
 }
 
-/*@media (height: 2400px), (width: 1080px) {
+@media (height: 915px), (width: 412px) {
   h1 {
     font-size: 130px;
     margin-top: -600px;
@@ -70,7 +70,7 @@ h1 {
   .time small {
     font-size: 30px;
   }
-}*/
+}
 @media (height: 2312px), (width: 1080px) {
   h1 {
     font-size: 130px;
@@ -103,15 +103,15 @@ h1 {
     font-size: 35px;
   }
 }
-  /*@media (width: 2400px), (height: 1080px) {
+@media (width: 915px), (height: 412px) {
     h1 {
-      font-size: 130px;
-      margin-top: -600px;
+      font-size: 3em;
+      margin-top: -400px;
       font-weight: bold;
     }
     .time h2 {
       font-weight: bold;
-      font-size: 80px;
+      font-size: 70px;
       line-height: 1;
       margin: 0 0 5px;
     }
@@ -119,4 +119,3 @@ h1 {
       font-size: 35px;
     }
 }
-*/
