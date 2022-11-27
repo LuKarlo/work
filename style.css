@@ -57,18 +57,18 @@ h1 {
 
 @media (height: 2312px), (width: 1080px) {
   h1 {
-    font-size: 130px;
+    font-size: 100px;
     margin-top: -600px;
     font-weight: bold;
   }
   .time h2 {
     font-weight: bold;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 1;
     margin: 0 0 5px;
   }
   .time small {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 @media (width: 2312px), (height: 1080px) {
