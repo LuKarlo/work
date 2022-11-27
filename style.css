@@ -28,8 +28,6 @@ h1 {
   margin: -200px 0 40px;
   position: absolute;
   display: none;
-  padding: 5px;
-  background: rgb(255, 255, 255, 0.5)
 }
 
 .natale {
@@ -48,8 +46,6 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 15px;
-  padding: 5px;
-  background: rgb(255, 255, 255, 0.5)
 }
 
 .time h2 {
@@ -57,26 +53,8 @@ h1 {
   font-size: 2em;
   line-height: 1;
   margin: 0 0 5px;
-  padding: 5px;
-  background: rgb(255, 255, 255, 0.5)
 }
 
-@media (max-height: 2400px), (max-width: 1080px) {
-  h1 {
-    font-size: 130px;
-    margin-top: -600px;
-    font-weight: bold;
-  }
-  .time h2 {
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 1;
-    margin: 0 0 5px;
-  }
-  .time small {
-    font-size: 30px;
-  }
-}
 @media (height: 2312px), (width: 1080px) {
   h1 {
     font-size: 130px;
@@ -91,22 +69,6 @@ h1 {
   }
   .time small {
     font-size: 30px;
-  }
-}
-@media (width: 2312px), (height: 1080px) {
-  h1 {
-    font-size: 130px;
-    margin-top: -600px;
-    font-weight: bold;
-  }
-  .time h2 {
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 1;
-    margin: 0 0 5px;
-  }
-  .time small {
-    font-size: 35px;
   }
 }
   @media (max-width: 2400px), (max-height: 1080px) {
