@@ -55,7 +55,7 @@ h1 {
   margin: 0 0 5px;
 }
 
-@media (min-height: 2350px), (min-width: 1080px) {
+@media (max-height: 2400px), (max-width: 1080px) {
   h1 {
     font-size: 130px;
     margin-top: -600px;
@@ -103,7 +103,7 @@ h1 {
     font-size: 35px;
   }
 }
-  @media (min-width: 2350px), (height: 1080px) {
+  @media (max-width: 2400px), (max-height: 1080px) {
     h1 {
       font-size: 130px;
       margin-top: -600px;
