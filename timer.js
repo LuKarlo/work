@@ -21,9 +21,6 @@ var x = setInterval(function(){
         document.getElementById("minuti").innerHTML = "00";
         document.getElementById("secondi").innerHTML = "00";
 
-        var element = document.getElementById('scritta');
-        var element2 = document.getElementById('scritta2')
-        element.classList.add("Natale");
-        element.classList.remove("Natale");
+        document.getElementById('scritta').innerHTML = "Buon natale"
     }
 },1000)
