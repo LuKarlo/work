@@ -59,6 +59,8 @@ h1 {
 .time small{
   -webkit-text-stroke: 1px whitesmoke;
   color: black;
+  font-weight: bold;
+  font-size: 10px
 }
 
 @media (height: 915px), (width: 412px) {
