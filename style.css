@@ -5,8 +5,10 @@
   padding: 0;
 }
 
+.back1{background: url(Bc.png);}
+.back2{background: url(bc2timer.png);}
+
 .body {
-  background: url(Bc.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
