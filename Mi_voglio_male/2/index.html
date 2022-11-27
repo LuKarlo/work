@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="path/to/fontawesome.min.css">
+    </head>
+    <body>
+        <div class="intro">
+            <h1>Giorno 1</h1>
+            <p>Allenamento</p>
+        </div>
+        <div class="container">
+            <div class="but 1b">
+                <button class="1 btrx" style="--clr: #0FED06; --car: #0a0000; --hvr: #0FB406; --hcar: #000"><i class="fa fa-code"></i></button>
+                <p class="tes trx 1a">Codes</p>
+            </div>
+            <div class="but 2b">
+                <button class="2 btrx" style="--clr: #F03BF7;  --car: #0a0000; --hvr: #B00EB7; --hcar: #000"><i class="fas fa-tshirt"></i></button>
+                <p class="tes try 2a">Clothes</p>
+            </div>
+            <div class="but 3b">
+                <button class="3 btrx" style="--clr: #2B94FD;  --car: #0a0000; --hvr: #065EB5; --hcar: #000"><i class="fab fa-playstation"></i></button>
+                <p class="tes trx 3a">Games</p>
+            </div>
+            <div class="but 4b">
+                <button class="4 btrx" style="--clr: #FBE907;  --car: #0a0000; --hvr: #A4990B; --hcar: #000"><i class="fas fa-cloud-showers-heavy"></i></button>
+                <p class="tes try 4a">Weather</p>
+            </div>
+            <div class="but 5b">
+                <button class="5 btrx" style="--clr: #FD0304;  --car: #0a0000; --hvr: #BD0102; --hcar: #000"><i class="fa-solid fa-tree"></i></button>
+                <p class="tes trx 5a">Nature</p>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".1").on('click', function(){
+                    $(".1a").toggleClass("open");
+                    $(".1b").toggleClass("lef");
+                });
+            });$(document).ready(function(){
+                $(".2").on('click', function(){
+                    $(".2a").toggleClass("open");
+                    $(".2b").toggleClass("lef");
+                });
+            });$(document).ready(function(){
+                $(".3").on('click', function(){
+                    $(".3a").toggleClass("open");
+                    $(".3b").toggleClass("lef");
+                });
+            });$(document).ready(function(){
+                $(".4").on('click', function(){
+                    $(".4a").toggleClass("open");
+                    $(".4b").toggleClass("lef");
+                });
+            });$(document).ready(function(){
+                $(".5").on('click', function(){
+                    $(".5a").toggleClass("open");
+                    $(".5b").toggleClass("lef");
+                });
+            });
+        </script>
+    </body>
+</html>

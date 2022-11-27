@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                background: orangered;
+                color: white;
+            }
+            button{
+                height: 20px;
+                width: 300px;
+                margin-top: 70px;
+                border-radius: 10px;
+                background: transparent;
+                color: white;
+                border:2px solid white;
+            }
+            h2{
+                padding: 40px;
+            }
+            #star{
+                margin-top: 100px;
+                position: absolute;
+            }
+            #grid{
+                font-size: 2em;
+            }
+            .grid{
+                position: absolute;
+                margin-top: 130px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+            }
+            form{
+                display: flex;
+                align-content: center;
+                flex-direction: column;
+            }
+            form input{
+                width: 200px;
+                height: 20px;
+                border-radius: 10px;
+                background: transparent;
+                border: 2px solid white;
+            }
+            #opera{
+                width: 1000px;
+                height: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <button id="piu" onclick="agg()">Aumenta</button><form onsubmit="return myFunction()">
+            <input type="text" id="brutto"><br>
+            <input type="submit" value="submit">
+        </form><button id="meno" onclick="dim()">Diminuisci</button>
+        <br>
+        <button id="star" onclick="tabli()">Inizia</button>
+        <div class="grid">
+            <p id="grid"></p>
+            <p id="safe"></p>
+        </div>
+
+        <script>
+            var tabe = 0;
+            var i;
+            var testo = "";
+            
+            function myFunction(){
+                tabe = document.getElementById('brutto').values;
+                console.log(tabe);
+            }
+            console.log(tabe);
+            document.getElementById('tab').innerHTML = tabe;
+           function agg(){
+            tabe++;
+            document.getElementById('tab').innerHTML = tabe;
+           }
+           function dim(){
+            if(tabe == 0){}else{
+            tabe--;
+            }
+            document.getElementById('tab').innerHTML = tabe;
+           }
+           function tabli(){
+            document.getElementById('grid').innerText = "Tabellina del "+tabe;
+            for(i = 1;i < 11;i++){
+                    testo = testo + "<center>" + tabe + " x " + i + " = " + (tabe * i) +"</center><br>";
+                    console.log(testo);
+                }
+                document.getElementById('safe').innerHTML = testo;
+                testo = "";
+           }
+        </script>
+    </body>
+</html>

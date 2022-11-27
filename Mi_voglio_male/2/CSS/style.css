@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Mochiy Pop One');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Mochiy pop one",sans-serif;
+}
+
+body{
+    background: #252839;
+}
+
+.intro{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    text-justify: auto;
+}
+
+.intro h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.intro p{
+    font-size: 1rem;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.but{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.trx{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+
+.try{
+    transform: translatey(-10000%);
+    transition: 1s;
+}
+
+.tes{
+    font-size: 1rem;
+    text-align: right;
+    bottom: 0;
+    color: white;
+    width: 90%;
+    margin: auto;
+   
+}
+
+.btrx{
+    transform: translateX(25vh);
+    transition: 1s;
+}
+
+.but button{
+    top: 0;
+    background-color: var(--clr);
+    color: var(--car);
+    height: 5rem;
+    width: 75%;
+    font-size: 2.5rem;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: 0 0 25px var(--hvr);
+}
+.but button:hover{
+    transition: 0.5s;
+    background: var(--hvr);
+    box-shadow: 0 0 25px var(--clr);
+    color: var(--hcar);
+    cursor: pointer;
+}
+
+.open{
+    display: block;
+    transform: translateX(0%);
+    transition: 1s;
+}
+
+.openy{
+    display: block;
+    transform: translatey(0%);
+    transition: 1s;
+}
+
+.lef{
+    transform: translateX(-7%);
+    transition: 1s;
+}
