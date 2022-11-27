@@ -55,7 +55,7 @@ h1 {
   margin: 0 0 5px;
 }
 
-@media (height: 2312px), (width: 1080px) {
+@media (min-height: 2300px), (min-width: 1080px) {
   h1 {
     font-size: 100px;
     margin-top: -600px;
