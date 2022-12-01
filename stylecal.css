@@ -1,0 +1,152 @@
+*{margin: 0;padding: 0;}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(IMG/pattern.jpg);
+    background-repeat: repeat;
+}
+.grid{
+    width: 97vw;
+    height: 97.2vh;
+    background: url(IMG/bcim.png);
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: 10;
+}
+
+.riga{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Cinzel', serif;
+    height: 16.6%;
+    width: 100%;
+}
+
+.giorni{
+    height: 90px;
+    width: 90px;
+    border-radius: 25px;
+    background: rgba(53, 235, 7, 0.452);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.giorni:hover{
+    background: rgba(53, 235, 7, 1);
+}
+.giorni:nth-child(even){
+    background: rgba(253, 32, 43, 0.452);
+}
+.giorni:nth-child(even):hover{
+    background: rgba(255, 20, 32, 1);
+}
+
+.destra{
+    transform: translateX(-70vh);
+}
+
+.centro-destra{
+    transform: translateX(-20);
+}
+
+.centro-sinistra{
+    transform: translateX(70vh);
+}
+
+.sinistra{
+    transform: translateX(0);
+}
+.oggi{
+    background: rgb(255, 255, 0, 0.452);
+}
+.oggi:hover{
+    background: rgb(255, 255, 0, 1);
+}
+
+@media(max-width:950px){
+    .destra{
+        position:initial;
+        margin: auto;
+        transform: translateX(0vh);
+    }
+    
+    .centro-destra{
+        position:initial;
+        margin: auto;
+    }
+    
+    .centro-sinistra{margin: auto;transform: translateX(0);}
+    
+    .sinistra{
+        position:initial;
+        margin: auto;
+    }
+    .giorni{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 25px;
+        display: flex;
+        gap: 20px;
+    }
+    .riga{
+        position: relative;
+        padding: 0 40px;
+    }
+    .grid{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+  }
+  @media(max-width:500px){
+    .destra{
+        position:initial;
+        margin: auto;
+        transform: translateX(0vh);
+    }
+    
+    .centro-destra{
+        position:initial;
+        margin: auto;
+    }
+    
+    .centro-sinistra{margin: auto;transform: translateX(0);}
+    
+    .sinistra{
+        position:initial;
+        margin: auto;
+    }
+    .giorni{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 25px;
+        display: flex;
+        gap: 20px;
+    }
+    .riga{
+        position: relative;
+        padding: 0 40px;
+    }
+    .grid{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+  }
