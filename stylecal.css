@@ -3,13 +3,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(IMG/pattern.jpg);
+    background: url(pattern.jpg);
     background-repeat: repeat;
 }
 .grid{
     width: 97vw;
     height: 97.2vh;
-    background: url(IMG/bcim.png);
+    background: url(bcim.png);
     background-size: cover;
     margin: auto;
     display: flex;
